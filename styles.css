@@ -10,9 +10,6 @@ body{
     background-size: cover;
 }
 
-.wtitle{
-    display: flex;
-}
 body::after{
     content: '';
     position: fixed;
@@ -22,7 +19,7 @@ body::after{
 }
 
 body > a{
-    position: relative;
+    position: absolute;
     left: 2rem;
     top: 1rem;
     text-decoration: none;
